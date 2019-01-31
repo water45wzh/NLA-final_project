@@ -1,4 +1,5 @@
 function [f1,g1] = res(u,v,p,f,g)
+%²ÐÁ¿
 n = size(p,1);
 %¸üÐÂf
 f1(:,1) = zeros(n,1);

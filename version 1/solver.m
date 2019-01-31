@@ -1,4 +1,5 @@
 function [u,v] = solver(p,f,g)
+%Uzawa第一步，精确求解方程
 n = size(p,1);
 P = m2v(p);
 F = [m2v(f(:,2:n));m2v(g(2:n,:))];

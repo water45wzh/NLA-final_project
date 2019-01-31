@@ -1,4 +1,5 @@
 function e = err(u,v,p)
+%计算误差
 n = size(p,1);
 %精确解
 u0 = zeros(n,n+1);

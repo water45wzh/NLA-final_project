@@ -1,6 +1,6 @@
 function [u,v,p] = DGS(u,v,p,f,g,v1,a)
+%ÒþÊ½DGS
 n = size(p,1);
-
 for k = 1:v1
     [u,v] = GS(u,v,p,f,g,v1,a);
     for i = 2:n-1

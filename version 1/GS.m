@@ -1,4 +1,5 @@
 function [u,v] = GS(u,v,p,f,g,v1,a)
+%G-Sµü´ú·¨
 n = size(p,1);
 h = 1/n;
 

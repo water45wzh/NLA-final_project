@@ -1,4 +1,5 @@
 function rhn = rh_norm(u,v,p)
+%计算残量的2-范数
 n = size(p,1);
 %计算精确解
 f0 = zeros(n,n+1);
